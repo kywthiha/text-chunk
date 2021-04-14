@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.output div {
+  padding: 1rem;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.input {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input textarea {
+  margin: auto;
+  width: 83%;
+  padding: 1rem;
+}
+
+.length {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
+}
+/*# sourceMappingURL=index.css.map */

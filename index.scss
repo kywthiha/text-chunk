@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.output{
+
+    div{
+        padding: 1rem;
+        white-space: pre-wrap;
+        word-break: break-all;
+    }
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    textarea{
+        margin: auto;
+        width: 83%;
+        padding: 1rem;
+    }
+
+}
+.length{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
