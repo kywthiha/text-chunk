@@ -30,15 +30,20 @@ const splitComponent = ({ text }) => {
     return div;
 }
 
+const clearString = (str)=>(str && str.trim() && str.trim().replace(/\s+/g, " "))
 const changeEvent = (e)=>{
     outputDiv.innerHTML = ''
     const largeText = inputTextArea.value
     const lenght = +lengthInput.value
 
-    for (let text of chunkString(largeText,lenght || 70)) {
+    for (let text of chunkString(clearString(largeText),lenght || 70)) {
         outputDiv.appendChild(splitComponent({text}))
     }
 }
 
 inputTextArea.addEventListener('input', changeEvent)
 lengthInput.addEventListener('input', changeEvent)
+
+if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js');
+  };

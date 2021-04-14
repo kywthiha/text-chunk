@@ -4,13 +4,14 @@
 }
 
 .output div {
-  padding: 1rem;
+  margin: .5rem;
+  background-color: wheat;
+  padding: .5rem;
   white-space: pre-wrap;
   word-break: break-all;
 }
 
 .input {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,13 +21,12 @@
 }
 
 .input textarea {
-  margin: auto;
   width: 83%;
   padding: 1rem;
+  background-color: whitesmoke;
 }
 
 .length {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
